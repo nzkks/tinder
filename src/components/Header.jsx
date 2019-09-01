@@ -1,10 +1,23 @@
 import React from 'react';
+import Logo from './Logo';
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <header>
+      <div className="fl">
+        <button type="button">
+          <img src="/images/misc/user.png" alt="User Settings" />
+        </button>
+      </div>
+      <div className="fl">
+        <Logo />
+      </div>
+      <div className="fl">
+        <button type="button">
+          <img src="/images/misc/messages.png" alt="View Images" />
+        </button>
+      </div>
+    </header>
   );
 };
 
