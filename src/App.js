@@ -1,8 +1,9 @@
 import React from 'react';
+
 import './App.css';
 
 const App = () => {
-  return <p>frgi</p>;
+  return <div className="App">Test</div>;
 };
 
 export default App;
